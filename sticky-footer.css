@@ -1,0 +1,77 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer{
+  left: 0;
+  right: 0;
+}
+
+.footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #181212;
+}
+
+
+.social-sharing {
+  display: block;
+  position: static;
+  padding-right: 15px;
+  width: 100%;
+  left: 450px;
+  bottom: 0;
+}
+
+.social-sharing ul.menu-social {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrapwrap;
+  flex-wrap: nowrap;
+  font-size: 1.75rem;
+}
+
+.social-sharing ul.menu-social a {
+  flex: 0 5 40px;
+  height: 40px;
+}
+
+.social-sharing ul.menu-social a.next {
+  flex: 1 1 auto;
+}
+.icon-google2{
+  content: "\ea89";
+}
+.icon-facebook2 {
+  content: "\ea91";
+}
+.icon-instagram {
+  content: "\ea92";
+}
+.icon-twitter {
+  content: "\ea96";
+}
+.icon-linkedin2 {
+  content: "\eaca";
+}
+.text-muted{
+  font-family: Goudy Type;
+  
+}
